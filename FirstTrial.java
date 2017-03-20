@@ -72,7 +72,7 @@ public class FirstTrial {
 		//Electronics
 		str=nf.format(Electronics(true));
 		System.out.println("Output:"+str);
-		
+
 	}
 
 }
