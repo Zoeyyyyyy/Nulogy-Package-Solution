@@ -14,13 +14,13 @@ Intrustion:
 
 
 Example Input：
-price = 1299.99
-numofpeople = 3;
-ProdcutType = "drugs"
+1. price = 1299.99
+2. numofpeople = 3;
+3. ProdutcType = "drugs"
 
 Example Output:
 
-Input: $1,299.99, 3 people, drugs
-Output: $1,516.5
+1. Input: $1,299.99, 3 people, drugs
+2. Output: $1,516.5
       
 Author : Xueqian Zhou
