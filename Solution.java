@@ -6,8 +6,8 @@
 import java.text.DecimalFormat;
 import java.text.NumberFormat;
 
+
 public class Solution {
-	
 	/*
 	 * 
 	 * Flat MarkUp 5%
@@ -16,8 +16,7 @@ public class Solution {
 	 * Food       13%
 	 * Electronic  2%
 	 * Else        0
-	 */
-	
+	 */	
 	private static double Flatfee = 1.05;
 	private static double Labourfee = 0.012;
 	private static double Drugfee = 0.075;
@@ -59,12 +58,15 @@ public class Solution {
        }     
 	return payment;
    }
-     
+    
+    public static void setParameters() {
+    	price = 12456.95;
+    	numofpeople = 4;
+    	ProductType = "books";
+    }
+    
 	public static void main(String[] args) {
-		price = 12456.95;
-		numofpeople = 4;
-		ProductType = "books";
-
+		setParameters();
 		NumberFormat output = new DecimalFormat("$###,###,###.##");
 		String Price = output.format(price);
 		String Payment = output.format(getProdcutType(ProductType));
