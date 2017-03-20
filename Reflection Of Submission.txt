@@ -1,0 +1,5 @@
+Version 1.0: Used boolean methods for category selection
+Version 1.1: Used switch for category selection (reduced runtime)
+Version 1.2: Edit output Format
+Version 1.3: Create setParameters() to keep program easy to read
+
