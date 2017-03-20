@@ -1,6 +1,10 @@
+/* 2017/03/20
+ * Package Solution For Nulogy
+ * Copyright Xueqian Zhou 
+ */
+
 import java.text.DecimalFormat;
 import java.text.NumberFormat;
-
 
 public class Solution {
 	
