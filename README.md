@@ -14,9 +14,9 @@ Intrustion:
 
 
 Example Input：
-   price = 1299.99;
-   numofpeople = 3;
-   ProductType = "drugs";
+price = 1299.99
+numofpeople = 3;
+ProdcutType = "drugs"
 
 Example Output:
 
